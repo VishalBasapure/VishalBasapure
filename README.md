@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I'm Vishal 👋
 
-<!--
-**VishalBasapure/VishalBasapure** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+AI & Data Science Enthusiast
 
-Here are some ideas to get you started:
+## Skills
+- Python
+- Machine Learning
+- SQL
+- Data Analysis
+- MongoDB
+- Flask
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+
+### Crime Risk Analysis
+Machine learning based crime prediction and hotspot detection.
+
+### Code Visualizer
+Interactive visualization of Python code execution.
+
+## Connect
+LinkedIn: www.linkedin.com/in/vishal-basapure-72668a1b9
+
