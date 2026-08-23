@@ -6,9 +6,13 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=650&lines=MCA+Student+%40+PES+University%2C+Bengaluru;Real-Time+Data+%2B+Applied+ML+%2F+GenAI;Kafka+%C2%B7+Spark+%C2%B7+FastAPI+%C2%B7+Streamlit;Currently+grinding+DSA+for+placements+%F0%9F%94%A5" alt="Typing SVG" />
 </a>
 
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=VishalBasapure&color=a78bfa&style=flat-square&label=Profile+Views)
+
 </div>
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
 
 ## About me
 
@@ -16,13 +20,27 @@ I'm an MCA student at PES University (CGPA 8.46), and before that I did my BSc i
 
 Right now I'm splitting time between DSA prep for placements and my capstone on continual learning for memory-constrained microcontrollers. Weekends are for side projects.
 
-- 🎯 Targeting AI/ML backend + data engineering roles
-- 🛠️ Comfortable across the stack: streaming pipelines → model training → API → dashboard
-- 🧠 Currently deep in Blind 75 / DSA grind, Python-first
-- 🏅 Oracle Certified — Agentic AI Foundations Associate
-- 💬 Ask me about Kafka/Spark pipelines, or how to make a Streamlit app look like it wasn't built in an afternoon (even when it was)
+> *"Make it work, make it right, make it real-time."*
 
-<br>
+<table>
+<tr>
+<td>🎯</td><td>Targeting AI/ML backend + data engineering roles</td>
+</tr>
+<tr>
+<td>🛠️</td><td>Comfortable across the stack: streaming pipelines → model training → API → dashboard</td>
+</tr>
+<tr>
+<td>🧠</td><td>Currently deep in the Blind 75 / DSA grind, Python-first</td>
+</tr>
+<tr>
+<td>🏅</td><td>Oracle Certified — Agentic AI Foundations Associate</td>
+</tr>
+<tr>
+<td>💬</td><td>Ask me about Kafka/Spark pipelines, or how to make a Streamlit app look like it wasn't built in an afternoon (even when it was)</td>
+</tr>
+</table>
+
+<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
 
 ## Tech I actually use
 
@@ -45,7 +63,7 @@ Right now I'm splitting time between DSA prep for placements and my capstone on 
 
 </div>
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
 
 ## Featured projects
 
@@ -55,6 +73,7 @@ Simulated Kafka → Spark pipeline modeling an enterprise-scale detection system
 `Python` `Kafka` `Spark` `Streamlit` `Gemini API`
 
 [![Live Demo](https://img.shields.io/badge/Live_Demo-24243e?style=for-the-badge&logo=streamlit&logoColor=FF4B4B)](https://insider-threat-detection-vishalbasapure.streamlit.app)
+[![Repo](https://img.shields.io/badge/Source-24243e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VishalBasapure/Insider-Threat-Detection)
 
 <br>
 
@@ -76,7 +95,17 @@ Parses Python code with the AST module and turns it into interactive, graph-base
 [![Live Demo](https://img.shields.io/badge/Live_Demo-24243e?style=for-the-badge&logo=render&logoColor=46E3B7)](https://thecodevisualizer.onrender.com)
 [![Repo](https://img.shields.io/badge/Source-24243e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VishalBasapure/Code-Visualizer)
 
-<br>
+<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
+
+## Contribution trail
+
+Everyone's profile has the snake. Mine has a snail — same idea, better commitment to the bit. It crawls through my actual contribution graph in real time, one slow lap at a time, and it's on a daily auto-update via GitHub Actions (see `scripts/generate_snail.py` in this repo).
+
+<div align="center">
+<img src="./assets/snail-trail.svg" width="100%"/>
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
 
 ## GitHub stats
 
@@ -88,8 +117,6 @@ Parses Python code with the AST module and turns it into interactive, graph-base
 <div align="center">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalBasapure&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" width="45%" />
 </div>
-
-<br>
 
 ## Connect
 
