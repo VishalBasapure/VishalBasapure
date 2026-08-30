@@ -17,7 +17,11 @@ MARGIN_L = 16
 MARGIN_T = 30
 MARGIN_R = 16
 MARGIN_B = 14
-TOTAL_DURATION = 30  # seconds for one full crawl of the whole grid
+SECONDS_PER_CELL = 0.082  # crawl pace; total loop time scales with cells shown
+DEFAULT_WEEKS = 16  # show the most recent ~4 months by default (denser, more readable
+                     # than a mostly-empty full year for a newer account) instead of
+                     # the full 52-53 week grid. Pass a 3rd CLI arg to override, or
+                     # pass 0 / "all" to show the full year.
 
 LEVEL_COLORS = {
     "0": "#161b22",
@@ -49,9 +53,17 @@ def fetch_contributions(username: str):
     return cells
 
 
-def build_svg(cells, username: str) -> str:
+def build_svg(cells, username: str, weeks_window: int = DEFAULT_WEEKS) -> str:
     if not cells:
         raise ValueError("no contribution cells parsed")
+
+    max_week_all = max(c["week"] for c in cells)
+    if weeks_window and weeks_window > 0:
+        min_week = max(0, max_week_all - weeks_window + 1)
+        cells = [c for c in cells if c["week"] >= min_week]
+        # renumber weeks so the window starts at column 0
+        for c in cells:
+            c["week"] -= min_week
 
     max_week = max(c["week"] for c in cells)
     max_day = max(c["day"] for c in cells)
@@ -69,7 +81,8 @@ def build_svg(cells, username: str) -> str:
                 order.append(grid[(w, d)])
 
     n = len(order)
-    step = TOTAL_DURATION / n
+    total_duration = max(6.0, n * SECONDS_PER_CELL)
+    step = total_duration / n
 
     def cx(week):
         return MARGIN_L + week * PITCH + CELL / 2
@@ -85,6 +98,7 @@ def build_svg(cells, username: str) -> str:
     path_d = "M " + " L ".join(f"{x:.1f},{y:.1f}" for x, y in path_pts)
 
     total_contribs = sum(1 for c in order if c["level"] != "0")
+    span_label = "a year of commits" if weeks_window in (0, None) else f"the last {weeks_window} weeks"
 
     svg_parts = []
     svg_parts.append(
@@ -119,7 +133,7 @@ def build_svg(cells, username: str) -> str:
     <style>
       .cell {{
         animation-name: cellPulse;
-        animation-duration: {TOTAL_DURATION}s;
+        animation-duration: {total_duration:.2f}s;
         animation-iteration-count: infinite;
         animation-timing-function: cubic-bezier(.2,.8,.3,1);
         transform-box: fill-box;
@@ -141,7 +155,7 @@ def build_svg(cells, username: str) -> str:
         f'fill="#0d1117" stroke="#21262d" stroke-width="1"/>'
     )
     svg_parts.append(
-        f'  <text x="{MARGIN_L}" y="16" class="title">🐌 a year of commits, one slow lap</text>'
+        f'  <text x="{MARGIN_L}" y="16" class="title">🐌 {span_label}, one slow lap</text>'
     )
 
     # cells
@@ -163,7 +177,7 @@ def build_svg(cells, username: str) -> str:
     svg_parts.append(f"""
   <g>
     <ellipse cx="0" cy="0" rx="10" ry="4" fill="url(#trailGlow)" filter="url(#softBlur)">
-      <animateMotion dur="{TOTAL_DURATION}s" repeatCount="indefinite" rotate="auto" path="{path_d}"/>
+      <animateMotion dur="{total_duration:.2f}s" repeatCount="indefinite" rotate="auto" path="{path_d}"/>
     </ellipse>
   </g>
 """)
@@ -179,7 +193,7 @@ def build_svg(cells, username: str) -> str:
       <circle cx="9.2" cy="-1.6" r="0.7" fill="#f472b6"/>
       <line x1="6" y1="1.8" x2="9.6" y2="1.1" stroke="#e9d5ff" stroke-width="0.7" stroke-linecap="round"/>
       <circle cx="9.6" cy="1.1" r="0.7" fill="#f472b6"/>
-      <animateMotion dur="{TOTAL_DURATION}s" repeatCount="indefinite" rotate="auto" path="{path_d}"/>
+      <animateMotion dur="{total_duration:.2f}s" repeatCount="indefinite" rotate="auto" path="{path_d}"/>
     </g>
   </g>
 """)
@@ -194,15 +208,18 @@ def build_svg(cells, username: str) -> str:
 
 
 def main():
-    if len(sys.argv) != 3:
-        print("usage: generate_snail.py <github_username> <output_path>", file=sys.stderr)
+    if len(sys.argv) not in (3, 4):
+        print("usage: generate_snail.py <github_username> <output_path> [weeks|all]", file=sys.stderr)
         sys.exit(1)
     username, out_path = sys.argv[1], sys.argv[2]
+    weeks = DEFAULT_WEEKS
+    if len(sys.argv) == 4:
+        weeks = 0 if sys.argv[3] == "all" else int(sys.argv[3])
     cells = fetch_contributions(username)
-    svg = build_svg(cells, username)
+    svg = build_svg(cells, username, weeks_window=weeks)
     with open(out_path, "w") as f:
         f.write(svg)
-    print(f"wrote {out_path} ({len(cells)} cells)")
+    print(f"wrote {out_path} ({len(cells)} cells fetched, window={weeks or 'all'})")
 
 
 if __name__ == "__main__":

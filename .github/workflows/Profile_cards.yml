@@ -1,4 +1,4 @@
-name: Update snail trail
+name: Update profile cards
 
 on:
   schedule:
@@ -21,10 +21,15 @@ jobs:
       - name: Regenerate snail-trail.svg
         run: python3 scripts/generate_snail.py VishalBasapure assets/snail-trail.svg
 
+      - name: Regenerate stats-card.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/generate_stats.py VishalBasapure assets/stats-card.svg
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/snail-trail.svg
-          git diff --staged --quiet || git commit -m "chore: update snail contribution trail"
+          git add assets/snail-trail.svg assets/stats-card.svg
+          git diff --staged --quiet || git commit -m "chore: update profile cards"
           git push

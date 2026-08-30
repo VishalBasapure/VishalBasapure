@@ -12,7 +12,7 @@
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
+---
 
 ## About me
 
@@ -40,7 +40,7 @@ Right now I'm splitting time between DSA prep for placements and my capstone on 
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
+---
 
 ## Tech I actually use
 
@@ -63,7 +63,7 @@ Right now I'm splitting time between DSA prep for placements and my capstone on 
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
+---
 
 ## Featured projects
 
@@ -95,28 +95,27 @@ Parses Python code with the AST module and turns it into interactive, graph-base
 [![Live Demo](https://img.shields.io/badge/Live_Demo-24243e?style=for-the-badge&logo=render&logoColor=46E3B7)](https://thecodevisualizer.onrender.com)
 [![Repo](https://img.shields.io/badge/Source-24243e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/VishalBasapure/Code-Visualizer)
 
-<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
+---
 
 ## Contribution trail
 
-Everyone's profile has the snake. Mine has a snail — same idea, better commitment to the bit. It crawls through my actual contribution graph in real time, one slow lap at a time, and it's on a daily auto-update via GitHub Actions (see `scripts/generate_snail.py` in this repo).
+Everyone's profile has the snake. Mine has a snail — same idea, better commitment to the bit. It crawls through my last few months of real commits, one slow lap at a time, and it's on a daily auto-update via GitHub Actions (`scripts/generate_snail.py`).
 
 <div align="center">
 <img src="./assets/snail-trail.svg" width="100%"/>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=line&color=0:0f0c29,50:A78BFA,100:0f0c29&height=3&section=header" width="100%"/>
+---
 
 ## GitHub stats
 
-<div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=VishalBasapure&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&icon_color=A78BFA&text_color=c9d1d9" width="49%" />
-<img src="https://github-readme-streak-stats.demolab.com/?user=VishalBasapure&theme=tokyonight&hide_border=true&background=0d1117&stroke=A78BFA&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA" width="49%" />
-</div>
+This card is self-hosted (`scripts/generate_stats.py`, also auto-updated daily) instead of pulling from the usual third-party stats site — that public service goes down or gets rate-limited fairly often, and I'd rather my profile not depend on someone else's uptime.
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=VishalBasapure&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=A78BFA&text_color=c9d1d9" width="45%" />
+<img src="./assets/stats-card.svg" width="480"/>
 </div>
+
+---
 
 ## Connect
 
