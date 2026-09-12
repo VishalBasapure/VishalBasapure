@@ -24,14 +24,14 @@
   <text x="20" y="103" class="label">Followers</text>
   <text x="440" y="103" text-anchor="end" class="value">4</text>
   <text x="20" y="127" class="label">Contributions (last yr)</text>
-  <text x="440" y="127" text-anchor="end" class="value">50</text>
+  <text x="440" y="127" text-anchor="end" class="value">51</text>
   <text x="20" y="151" class="label">Current streak</text>
   <text x="440" y="151" text-anchor="end" class="value">0 days</text>
   <text x="20" y="175" class="label">Longest streak</text>
   <text x="440" y="175" text-anchor="end" class="value">2 days</text>
   <text x="20" y="209" class="label">Top languages</text>
-  <rect x="20.0" y="223" width="395.7" height="10" fill="#e34c26"/>
-  <rect x="415.7" y="223" width="18.4" height="10" fill="#3572A5"/>
+  <rect x="20.0" y="223" width="395.6" height="10" fill="#e34c26"/>
+  <rect x="415.6" y="223" width="18.4" height="10" fill="#3572A5"/>
   <rect x="434.0" y="223" width="3.4" height="10" fill="#f1e05a"/>
   <rect x="437.5" y="223" width="2.0" height="10" fill="#563d7c"/>
   <rect x="439.5" y="223" width="2.0" height="10" fill="#b07219"/>
