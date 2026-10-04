@@ -24,29 +24,29 @@
   <text x="20" y="103" class="label">Followers</text>
   <text x="440" y="103" text-anchor="end" class="value">4</text>
   <text x="20" y="127" class="label">Contributions (last yr)</text>
-  <text x="440" y="127" text-anchor="end" class="value">52</text>
+  <text x="440" y="127" text-anchor="end" class="value">58</text>
   <text x="20" y="151" class="label">Current streak</text>
   <text x="440" y="151" text-anchor="end" class="value">0 days</text>
   <text x="20" y="175" class="label">Longest streak</text>
   <text x="440" y="175" text-anchor="end" class="value">2 days</text>
   <text x="20" y="209" class="label">Top languages</text>
-  <rect x="20.0" y="223" width="393.7" height="10" fill="#e34c26"/>
-  <rect x="413.7" y="223" width="20.4" height="10" fill="#3572A5"/>
-  <rect x="434.1" y="223" width="3.4" height="10" fill="#f1e05a"/>
-  <rect x="437.5" y="223" width="2.0" height="10" fill="#563d7c"/>
-  <rect x="439.5" y="223" width="2.0" height="10" fill="#b07219"/>
+  <rect x="20.0" y="223" width="391.7" height="10" fill="#e34c26"/>
+  <rect x="411.7" y="223" width="20.7" height="10" fill="#3572A5"/>
+  <rect x="432.3" y="223" width="4.2" height="10" fill="#f1e05a"/>
+  <rect x="436.5" y="223" width="2.4" height="10" fill="#563d7c"/>
+  <rect x="438.9" y="223" width="2.0" height="10" fill="#b07219"/>
   <circle cx="24" cy="247" r="4" fill="#e34c26"/>
   <text x="34" y="251" class="langname">HTML</text>
-  <text x="440" y="251" text-anchor="end" class="pct">93.7%</text>
+  <text x="440" y="251" text-anchor="end" class="pct">93.3%</text>
   <circle cx="24" cy="267" r="4" fill="#3572A5"/>
   <text x="34" y="271" class="langname">Python</text>
   <text x="440" y="271" text-anchor="end" class="pct">4.9%</text>
   <circle cx="24" cy="287" r="4" fill="#f1e05a"/>
   <text x="34" y="291" class="langname">JavaScript</text>
-  <text x="440" y="291" text-anchor="end" class="pct">0.8%</text>
+  <text x="440" y="291" text-anchor="end" class="pct">1.0%</text>
   <circle cx="24" cy="307" r="4" fill="#563d7c"/>
   <text x="34" y="311" class="langname">CSS</text>
-  <text x="440" y="311" text-anchor="end" class="pct">0.3%</text>
+  <text x="440" y="311" text-anchor="end" class="pct">0.6%</text>
   <circle cx="24" cy="327" r="4" fill="#b07219"/>
   <text x="34" y="331" class="langname">Java</text>
   <text x="440" y="331" text-anchor="end" class="pct">0.2%</text>
