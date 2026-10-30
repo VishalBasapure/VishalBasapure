@@ -22,16 +22,16 @@
   <text x="20" y="79" class="label">Total stars</text>
   <text x="440" y="79" text-anchor="end" class="value">2</text>
   <text x="20" y="103" class="label">Followers</text>
-  <text x="440" y="103" text-anchor="end" class="value">4</text>
+  <text x="440" y="103" text-anchor="end" class="value">5</text>
   <text x="20" y="127" class="label">Contributions (last yr)</text>
-  <text x="440" y="127" text-anchor="end" class="value">93</text>
+  <text x="440" y="127" text-anchor="end" class="value">96</text>
   <text x="20" y="151" class="label">Current streak</text>
   <text x="440" y="151" text-anchor="end" class="value">0 days</text>
   <text x="20" y="175" class="label">Longest streak</text>
   <text x="440" y="175" text-anchor="end" class="value">3 days</text>
   <text x="20" y="209" class="label">Top languages</text>
-  <rect x="20.0" y="223" width="385.0" height="10" fill="#e34c26"/>
-  <rect x="405.0" y="223" width="26.8" height="10" fill="#3572A5"/>
+  <rect x="20.0" y="223" width="385.1" height="10" fill="#e34c26"/>
+  <rect x="405.1" y="223" width="26.7" height="10" fill="#3572A5"/>
   <rect x="431.8" y="223" width="4.1" height="10" fill="#f1e05a"/>
   <rect x="435.9" y="223" width="2.3" height="10" fill="#563d7c"/>
   <rect x="438.2" y="223" width="2.0" height="10" fill="#b07219"/>
