@@ -20,13 +20,13 @@
   <text x="20" y="55" class="label">Public repos</text>
   <text x="440" y="55" text-anchor="end" class="value">10</text>
   <text x="20" y="79" class="label">Total stars</text>
-  <text x="440" y="79" text-anchor="end" class="value">2</text>
+  <text x="440" y="79" text-anchor="end" class="value">14</text>
   <text x="20" y="103" class="label">Followers</text>
-  <text x="440" y="103" text-anchor="end" class="value">5</text>
+  <text x="440" y="103" text-anchor="end" class="value">7</text>
   <text x="20" y="127" class="label">Contributions (last yr)</text>
   <text x="440" y="127" text-anchor="end" class="value">99</text>
   <text x="20" y="151" class="label">Current streak</text>
-  <text x="440" y="151" text-anchor="end" class="value">2 days</text>
+  <text x="440" y="151" text-anchor="end" class="value">0 days</text>
   <text x="20" y="175" class="label">Longest streak</text>
   <text x="440" y="175" text-anchor="end" class="value">3 days</text>
   <text x="20" y="209" class="label">Top languages</text>
