@@ -18,32 +18,32 @@
   <rect x="0.5" y="0.5" width="459" height="364" rx="10" class="card"/>
   <text x="20" y="28" class="h1">GitHub Stats — VishalBasapure</text>
   <text x="20" y="55" class="label">Public repos</text>
-  <text x="440" y="55" text-anchor="end" class="value">10</text>
+  <text x="440" y="55" text-anchor="end" class="value">11</text>
   <text x="20" y="79" class="label">Total stars</text>
   <text x="440" y="79" text-anchor="end" class="value">14</text>
   <text x="20" y="103" class="label">Followers</text>
   <text x="440" y="103" text-anchor="end" class="value">6</text>
   <text x="20" y="127" class="label">Contributions (last yr)</text>
-  <text x="440" y="127" text-anchor="end" class="value">105</text>
+  <text x="440" y="127" text-anchor="end" class="value">110</text>
   <text x="20" y="151" class="label">Current streak</text>
-  <text x="440" y="151" text-anchor="end" class="value">0 days</text>
+  <text x="440" y="151" text-anchor="end" class="value">3 days</text>
   <text x="20" y="175" class="label">Longest streak</text>
   <text x="440" y="175" text-anchor="end" class="value">3 days</text>
   <text x="20" y="209" class="label">Top languages</text>
-  <rect x="20.0" y="223" width="384.4" height="10" fill="#e34c26"/>
-  <rect x="404.4" y="223" width="27.2" height="10" fill="#3572A5"/>
-  <rect x="431.6" y="223" width="4.1" height="10" fill="#f1e05a"/>
-  <rect x="435.7" y="223" width="2.3" height="10" fill="#563d7c"/>
+  <rect x="20.0" y="223" width="376.2" height="10" fill="#e34c26"/>
+  <rect x="396.2" y="223" width="33.9" height="10" fill="#3572A5"/>
+  <rect x="430.1" y="223" width="5.2" height="10" fill="#f1e05a"/>
+  <rect x="435.4" y="223" width="2.6" height="10" fill="#563d7c"/>
   <rect x="438.0" y="223" width="2.0" height="10" fill="#b07219"/>
   <circle cx="24" cy="247" r="4" fill="#e34c26"/>
   <text x="34" y="251" class="langname">HTML</text>
-  <text x="440" y="251" text-anchor="end" class="pct">91.5%</text>
+  <text x="440" y="251" text-anchor="end" class="pct">89.6%</text>
   <circle cx="24" cy="267" r="4" fill="#3572A5"/>
   <text x="34" y="271" class="langname">Python</text>
-  <text x="440" y="271" text-anchor="end" class="pct">6.5%</text>
+  <text x="440" y="271" text-anchor="end" class="pct">8.1%</text>
   <circle cx="24" cy="287" r="4" fill="#f1e05a"/>
   <text x="34" y="291" class="langname">JavaScript</text>
-  <text x="440" y="291" text-anchor="end" class="pct">1.0%</text>
+  <text x="440" y="291" text-anchor="end" class="pct">1.2%</text>
   <circle cx="24" cy="307" r="4" fill="#563d7c"/>
   <text x="34" y="311" class="langname">CSS</text>
   <text x="440" y="311" text-anchor="end" class="pct">0.6%</text>
